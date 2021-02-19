@@ -1,13 +1,16 @@
+/* Selects entirety of document and applies style with least priority */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+/* Adds background color #d9dcd6 to body element */
 body {
   background-color: #d9dcd6;
 }
 
+/* Styles the header element's font, background-color, text color, and applies padding around content */
 .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -17,15 +20,18 @@ body {
   text-decoration: none;
 }
 
+/* Styles header's h1 child to display inline with content */
 .header h1 {
   display: inline-block;
   font-size: 48px;
 }
 
+/* Styles "seo" text color in header's h1 child */
 .header h1 .seo {
   color: #d9dcd6;
 }
 
+/* Styles header's div child to display header element' hyperlinks to the top right of the document without bullets */
 .header div {
   padding-top: 15px;
   margin-right: 20px;
@@ -34,20 +40,24 @@ body {
   list-style-type: none;
 }
 
+/* Displays header element's hyperlinks with margins between text content */
 .header div ul li {
   display: inline-block;
   margin-left: 25px;
 }
 
+/* Styles hyperlink text colors without decoration */
 a {
   color: #ffffff;
   text-decoration: none;
 }
 
+/* Styles paragraph's font-size */
 p {
   font-size: 16px;
 }
 
+/* Displays the documents hero image below the header.  */
 .hero {
   height: 800px;
   width: 100%;
@@ -57,22 +67,26 @@ p {
   background-position: center;
 }
 
+/* Styles content sections' images to appear on the left*/
 .float-left {
   float: left;
   margin-right: 25px;
 }
 
+/* Styles div below hero image sections' images to appear on the right*/
 .float-right {
   float: right;
   margin-left: 25px;
 }
 
+/* Styles div below hero image to display sections inline holding sections and aside */
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
+/* Styles content sections' font, background, and text color to display in blue blocks to the left of the div element  */
 .content section {
   margin-bottom: 20px;
   padding: 50px;
@@ -82,15 +96,18 @@ p {
   color: #ffffff;
 }
 
+/* Styles content sections' images maximum height display */
 .content img {
   max-height: 200px;
 }
 
+/* Styles content sections' h2 headings font size and bottom of the magrin */
 .content h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
+/* Styles aside content's background, text color, font, and size of block to display on the right of the document */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -103,21 +120,25 @@ p {
   color: #ffffff;
 }
 
+/* Styles aside's h3 headings to center text and adjust the margin's bottom */
 .benefits h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
+/* Styles the aside images' margins, maximum width, and display under the h3 headings*/
 .benefits img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
+/* Styles the aside sections' margin bottoms */
 .benefits section {
   margin-bottom: 34px;
 }
 
+/* Styles the document footer's font, absence of background, padding, and centered text */
 .footer {
   padding: 30px;
   clear: both;
@@ -126,6 +147,7 @@ p {
   text-align: center;
 }
 
+/* Styles footer's h2 headings font size */
 .footer h2 {
   font-size: 20px;
 }
